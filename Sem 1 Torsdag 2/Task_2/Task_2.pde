@@ -26,11 +26,19 @@ int age = 30;
 println(age);
 // 2.c
 println("----------------2c--------------------");
-boolean happyRightNow = true;
+boolean happyRightNow = false;
 println("Am i happy right now? " + happyRightNow);
 
 // 2.d 
 println("----------------2d--------------------");
+String dontV = happyRightNow?"":"don't ";
 println("Hi, my name is " + name);
 println("I am "+ age + " years old");
+
+if (happyRightNow){
 println("I clap my hands");
+} else {
+  println("I dont clap my hands");
+}
+println("----------------2d v2--------------------");
+println("I " + dontV + "clap my hands");

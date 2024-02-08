@@ -68,3 +68,34 @@ for (int i = start; i >= 0; i--){
 
 // 4.d
 println("----------------4d--------------------");
+
+println("---------------- 4d 4b--------------------");
+int s = 0;
+while (s <= 20) {
+  if (s % 2 == 0) {
+    println(s);
+     
+  }
+s++;
+}
+
+// 4.c
+println("---------------- 4d 4c--------------------");
+
+int j = 10;
+
+while (j >= 0){
+  if (j > 3){
+  println(j);
+  } else if(j==3){
+  println("Three");
+  } else if(j==2){
+  println("Two");
+  } else if(j==1){
+  println("One");
+}else{
+ println("Take Off!");
+ 
+ }
+  j--;
+}
