@@ -18,11 +18,29 @@ Task 7. Recursion
 
 // 7.a 7b 7c
 
-void setup(){
-functiona(8);
+void setup() {
+  functiona(8);
 }
 
-void functiona(int g) {
-  g = g-1;
-  println(g);
+int functiona(int g) {
+  if (g <= 0) {
+    return 1;
+  } else {
+    int sum = g -1;
+    println(sum);
+    functiona(sum);
+    return sum;
+  }
 }
+//                         VIRKER IKKE
+//int functiona(int g) {
+//for ()
+//}
+
+//int functiona(int g) {
+//constrain(g, 0,g);
+//    int sum = g -1;
+//    println(sum);
+//    functiona(sum);
+//    return sum;
+//  }
