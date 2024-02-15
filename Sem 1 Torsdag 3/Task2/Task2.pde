@@ -30,12 +30,12 @@ void setup() {
 
   // 2.b
   println("----------------2b--------------------");
-  int secound = sumOfThem(10, 20);
+  int secound = sumOfThem(65, 20);
   println(secound);
 
   // 2.c
   println("----------------2c--------------------");
-  String third = upper("hello");
+  String third = upper("This is a longer String");
   println(third);
   
   //2.d

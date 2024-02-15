@@ -7,7 +7,9 @@
  
  1.c Write a method that receives a String as a parameter and prints it. Call this method from setup()
  
- 1.d Write a method that receives a String as a parameter called "name" and an integer as a parameter called "age" and call it from setup with your own name and age. Have the method print the text "My name is <name>, I am <age> years old".
+ 1.d Write a method that receives a String as a parameter called "name" and an integer as a parameter 
+ called "age" and call it from setup with your own name and age. Have the method print the text
+ "My name is <name>, I am <age> years old".
  
  */
 
@@ -33,5 +35,5 @@ void userInput(String input) {
 
 void nameAndAge(String name, int age) {
   println("----------------1d--------------------");
-  println("My name is " + name + " I am " + age + " years old");
+  println("My name is " + name + " and I am " + age + " years old");
 }

@@ -15,7 +15,8 @@ class Student {
   }
   
   // 5.a
-  boolean isClassmates(Student otherStudent) {
-    return this.datamatikerTeam.equals(otherStudent.datamatikerTeam);
+ boolean isClassmates(Student other) {
+    return this.datamatikerTeam.equals(other.datamatikerTeam);
   }
+  
 }

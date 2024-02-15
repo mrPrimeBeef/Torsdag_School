@@ -13,7 +13,7 @@ Task 6. Parameterized functionality
 
 void setup() {
   // 6.c
-  divisible(10);
+  divisible(182);
 }
 // 6.a
 void divisible(int inty) {
