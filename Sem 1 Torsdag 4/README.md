@@ -1,6 +1,6 @@
 # Sem-1-Torsdag-2
  
-Her er #2 torsdagsopgaver
+Her er #4 torsdagsopgaver
 
 Rolf Lundsgaard Josephsen
 
