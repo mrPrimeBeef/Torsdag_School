@@ -16,11 +16,6 @@ Task 7: ArrayList
 
 // 7. a
 
-
-
-
-// 7. b
-
 void setup() {
   ArrayList<Integer> intArrayList = new ArrayList<>();
   intArrayList.add(1);
@@ -38,7 +33,7 @@ void setup() {
   booleanArrayList.add(false);
   booleanArrayList.add(true);
 
-
+// 7. b
   printArrayList(stringArrayList);
   println(sumItAll(intArrayList));
   println(sumItAverage(intArrayList));
