@@ -33,14 +33,14 @@ void setup() {
   printPartOfWord(input, input.length()-4, input.length());
 
   // 2. e
-  printPartOfWord(input, -1, -4);
+  printPartOfWord(input, 11, 12);
 } // end setup
 
 // 2.a
 void printPartOfWord(String word, int start, int end) {
 
-  if (start > end) {
-    println("Invalid arguments, check if the start value is bigger than the end");
+  if ((start > end) || (start > word.length() || end > word.length()) || (end < 0 || start < 0)) {
+    println("Invalid arguments, check input");
   } else {
     String result = word.substring(start, end);
     println(result);
