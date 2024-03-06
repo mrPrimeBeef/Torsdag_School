@@ -12,6 +12,12 @@ public static void main(String args[]){
 
 	int counter = 1;
 
+	team1.addPlayer("Rolf");
+	team2.addPlayer("Rolf2");
+	team3.addPlayer("Rolf3");
+	team4.addPlayer("Rolf4");
+	team5.addPlayer("Rolf5");
+	team6.addPlayer("Rolf6");
 	
 
 	Team[] teams = {team1, team2, team3, team4, team5, team6};
@@ -22,9 +28,9 @@ public static void main(String args[]){
 			counter ++;
         }
 
-
+        	// der behøver ikke toString her, fordi println også har en toString i sig, med override, så bruger println vores toString
         for (Team team : teams) {
-            System.out.println(team.toString());
+            System.out.println(team);
         }
 
 
