@@ -1,6 +1,8 @@
+package Task1;
+
 import java.util.ArrayList;
 
-public class Task1 {
+public class Main{
 
 
     public static void main(String[] args) {
@@ -8,7 +10,7 @@ public class Task1 {
    ArrayList<Customer> customers = new ArrayList<>();
         customers.add(new Customer("John", "Doe"));
         customers.add(new Customer("Jane", "Doe"));
-        customers.add(new Customer("John", "Jane"));
+        customers.add(new Customer("JohnJane", "DoeDoe"));
 
 
     printCustomers(customers);

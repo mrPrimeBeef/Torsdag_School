@@ -1,22 +1,24 @@
+package Task1;
+
 public class Customer {
     private String firstName;
     private String lastName;
     private String userName;
     private int id;
-    static int counter = 1;
+    static int counter = 0;
 
     public Customer(String firstName, String userName){
-       this.firstName = firstName;
-       this.userName = userName;
-       counter++;
-       id = counter;
+        this.firstName = firstName;
+        this.userName = userName;
+        counter++;
+        id = counter;
 
     }
 
     @Override
     public String toString(){
-        return "First name: " + getFirstName() + "Last name: " + getLastName() + "User id: " + getUserName();
-        }
+        return "First name: " + getFirstName() + "\n" + " User name: " + getUserName()  + "\n" + " Users ID: " +getId();
+    }
 
     public java.lang.String getFirstName() {
         return firstName;
