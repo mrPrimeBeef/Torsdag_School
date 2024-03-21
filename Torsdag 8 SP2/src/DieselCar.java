@@ -52,7 +52,7 @@ public class DieselCar extends AFuelCar {
             result += kmPrLitre + ",";
             result += particleFilter + ",";
             result += " " + ",";
-            result += " " + ",";
+            result += " ";
         return result;
     }
 

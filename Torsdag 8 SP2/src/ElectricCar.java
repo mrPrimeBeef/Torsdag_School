@@ -49,7 +49,7 @@ public class ElectricCar extends ACar {
         result += " " + ",";
         result += " " + ",";
         result += batteryCapacity + ",";
-        result += maxRange + ",";
+        result += maxRange;
         return result;
     }
 

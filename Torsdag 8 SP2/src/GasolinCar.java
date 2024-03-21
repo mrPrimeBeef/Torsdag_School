@@ -37,7 +37,7 @@ public class GasolinCar extends AFuelCar {
         result += kmPrLitre + ",";
         result += " " + ",";
         result += " " + ",";
-        result += " " + ",";
+        result += " ";
         return result;
     }
 
