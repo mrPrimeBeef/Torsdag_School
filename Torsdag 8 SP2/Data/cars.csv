@@ -1,0 +1,5 @@
+Registration, Make, Model, NumberOfDoors, kmPrLitre, ParticleFilter, BatteryCap, MaxRange
+Audi,Rs4,AB80900,5,11.4, , , ,
+Kia,Ceed,CD80900,5,25.8,true, , ,
+Mercedes,4hjul,EQ86920,5, , ,90.6,632,
+Mercedes,Lastvogn,EQ80808,2, , ,200.0,100,

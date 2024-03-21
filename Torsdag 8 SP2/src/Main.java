@@ -15,6 +15,8 @@ public class Main {
         fleet.addCar(bil3);
         fleet.addCar(bil4);
 
+        fleet.saveFleetToFile();
+
         System.out.println(fleet);
 
         System.out.println("The total registration fee for our fleet is " + fleet.getTotalRegistrationFeeForFleet());

@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class DieselCar extends AFuelCar {
     private boolean particleFilter;
     private final String typeOfFuel = "Diesel";
@@ -39,6 +41,19 @@ public class DieselCar extends AFuelCar {
             result += 130;
         return result;
     }
+    }
+
+    public String toCSV() {
+        String result = "";
+            result += getMake() + ",";
+            result += getModel() + ",";
+            result += getRegistrationNumber() + ",";
+            result += getNumberOfDoors() + ",";
+            result += kmPrLitre + ",";
+            result += particleFilter + ",";
+            result += " " + ",";
+            result += " " + ",";
+        return result;
     }
 
 

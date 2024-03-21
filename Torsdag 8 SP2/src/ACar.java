@@ -10,7 +10,6 @@ public abstract class ACar implements ICar {
         this.model = model;
         this.numberOfDoors = numberOfDoors;
     }
-
     public String getRegistrationNumber(){
 return this.registrationNumber;
 }
@@ -23,8 +22,6 @@ public String getModel(){
 public int getNumberOfDoors(){
     return this.numberOfDoors;
 }
-
-public abstract int getRegistrationFee();
 
 }
 

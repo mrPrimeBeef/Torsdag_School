@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class ElectricCar extends ACar {
     private double batteryCapacity;
     int maxRange;
@@ -36,6 +38,19 @@ public class ElectricCar extends ACar {
             return 330;
         }
 
+    }
+
+    public String toCSV() {
+        String result = "";
+        result += getMake() + ",";
+        result += getModel() + ",";
+        result += getRegistrationNumber() + ",";
+        result += getNumberOfDoors() + ",";
+        result += " " + ",";
+        result += " " + ",";
+        result += batteryCapacity + ",";
+        result += maxRange + ",";
+        return result;
     }
 
     @Override

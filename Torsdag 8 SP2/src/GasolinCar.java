@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class GasolinCar extends AFuelCar {
     private final String typeOfFuel = "Gasoline";
 
@@ -23,6 +25,20 @@ public class GasolinCar extends AFuelCar {
             return 330;
         }
 
+    }
+
+
+    public String toCSV() {
+        String result = "";
+        result += getMake() + ",";
+        result += getModel() + ",";
+        result += getRegistrationNumber() + ",";
+        result += getNumberOfDoors() + ",";
+        result += kmPrLitre + ",";
+        result += " " + ",";
+        result += " " + ",";
+        result += " " + ",";
+        return result;
     }
 
     @Override
