@@ -8,11 +8,7 @@ public class ElectricCarTest {
     ElectricCar bil4 = new ElectricCar("EQ86920", "Mercedes", "??", 5,90.6,632);
     ElectricCar bil5 = new ElectricCar("EQ86920", "Mercedes", "??", 5,200,300);
     ElectricCar bil6 = new ElectricCar("EQ86920", "Mercedes", "??", 5,200,350);
-
     ElectricCar bil7 = new ElectricCar("EQ86920", "Mercedes", "??", 5,200,150);
-
-
-
 
 
     @Before
