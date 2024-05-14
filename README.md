@@ -1,6 +1,5 @@
-# Torsdag_School
- 
-Her er alle torsdags opgaver fra 1. semester 
+Torsdagsopgaver
 
+Rolf Lundsgaard Josephsen
 
- -------------- CPH busniess Academy ------------------------
+cph-rj17@cphbusiness.dk
